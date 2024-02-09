@@ -20,7 +20,7 @@ export default function ContactusPage() {
   }
 
   return (
-    <div style={{color: 'white', backgroundAttachment: "fixed",backgroundImage: `url("https://stsci-opo.org/STScI-01GA6KNV1S3TP2JBPCDT8G826T.png")`, backgroundSize: 'cover', minHeight: '100vh'}}>
+    <div style={{color: 'white', backgroundAttachment: "fixed",backgroundImage: `url("https://stsci-opo.org/STScI-01GA6KNV1S3TP2JBPCDT8G826T.png")`, backgroundSize: 'cover', minHeight: '95vh'}}>
       {/* <h1 style={{marginLeft: '2%', paddingTop: '2%'}}>If you have any questions, ask below and we will get back to you as soon as possible!</h1> */}
       <Form
         ref={formRef}
