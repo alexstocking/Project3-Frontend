@@ -1,6 +1,6 @@
 import sendRequest from './send-request.js';
 
-const BASE_URL = `${process.env.REACT_APP_BACKEND_URL}/users`
+const BASE_URL = `${process.env.REACT_APP_USERS_URL}`
 
 // Refactored code below
 export function signUp(userData) {
