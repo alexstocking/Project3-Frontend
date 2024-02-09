@@ -8,6 +8,7 @@ import SignUpFormModal from './SignUpFormModal/SignUpFormModal';
 import { Link, useNavigate } from "react-router-dom"
 import * as userService from '../utilities/users-service'
 import { useProducts } from '../contexts/ProductContext';
+import './NavBar.css'
 
 export default function NavBar({ user, setUser }) {
   const [showLoginFormModal, setShowLoginFormModal] = useState(false);
@@ -36,7 +37,14 @@ export default function NavBar({ user, setUser }) {
     <div>
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand>Cosmic Collectibles</Navbar.Brand>
+          <Navbar.Brand>
+          <img
+        src="https://cosmicokc.com/wp-content/uploads/2022/11/Cosmic_Collectibles_Logo-1.png"
+        alt="cosmic collectibles logo"
+        className="navbar-logo"
+      />
+            Cosmic Collectibles
+            </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
           <Navbar.Collapse id="responsive-navbar-nav">
             {isSmallScreen ? (
