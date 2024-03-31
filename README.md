@@ -254,11 +254,12 @@ I added stock checks to other functions on the product pages, for example these 
       }
 
 I also added conditionals to the visuals to reflect the state changing when stock reached 0:
-          <>
-          {stock > 0 ? <Button variant="outline-light" onClick={() => {
-            handleAddToCart()
-            handleAlertAddedChange()
-            }}>Add To Shopping Cart</Button> : <Button variant="outline-danger" onClick={handleAlertStockChange}>Out of Stock</Button>}
+
+      <>
+      {stock > 0 ? <Button variant="outline-light" onClick={() => {
+        handleAddToCart()
+        handleAlertAddedChange()
+        }}>Add To Shopping Cart</Button> : <Button variant="outline-danger" onClick={handleAlertStockChange}>Out of Stock</Button>}
 
 I spent Thursday afternoon finishing the styling of the site with Baran. We added styling to the cart page, making backgrounds consistent across the site and the styling overall more encompassing the theme.
 
