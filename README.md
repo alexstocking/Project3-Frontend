@@ -1,5 +1,9 @@
 # Project 3 ReadMe - Cosmic Collectibles - MERN Full Stack application
 
+## My Portfolio Website
+
+https://alexstocking.netlify.app/
+
 ## Description
 
 This was a group project in which we had to build a single page full stack application using a React frontend and an Express backend. The project needed to have CRUD (Create, Read, Updated and Delete) functionality and authentication. My group decided quite quickly on an ecommerce site. We wanted to challenge ourselves to implement key features you would usually have in a virtual store, such as a shopping cart, stock indications and interesting and unique themes. We went with a space theme and landed on a site called Cosmic Collectibles. 
