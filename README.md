@@ -1,4 +1,4 @@
-# Project 3 ReadMe - MERN Full Stack application
+# Project 3 ReadMe - Cosmic Collectibles - MERN Full Stack application
 
 ## Description
 
